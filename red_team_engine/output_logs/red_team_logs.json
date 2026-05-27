@@ -1,0 +1,96 @@
+[
+    {
+        "timestamp": "2026-05-27 15:43:00",
+        "source_ip": "192.168.1.229",
+        "target": "web_login",
+        "attack_type": "brute_force",
+        "status": "failed",
+        "attempt": 1,
+        "mitre_id": "T1110"
+    },
+    {
+        "timestamp": "2026-05-27 15:43:00",
+        "source_ip": "192.168.1.229",
+        "target": "web_login",
+        "attack_type": "brute_force",
+        "status": "failed",
+        "attempt": 2,
+        "mitre_id": "T1110"
+    },
+    {
+        "timestamp": "2026-05-27 15:43:00",
+        "source_ip": "192.168.1.229",
+        "target": "web_login",
+        "attack_type": "brute_force",
+        "status": "failed",
+        "attempt": 3,
+        "mitre_id": "T1110"
+    },
+    {
+        "timestamp": "2026-05-27 15:43:00",
+        "source_ip": "192.168.1.198",
+        "attack_type": "port_scan",
+        "target_port": 937,
+        "status": "detected",
+        "mitre_id": "T1046"
+    },
+    {
+        "timestamp": "2026-05-27 15:43:00",
+        "source_ip": "192.168.1.198",
+        "attack_type": "port_scan",
+        "target_port": 473,
+        "status": "detected",
+        "mitre_id": "T1046"
+    },
+    {
+        "timestamp": "2026-05-27 15:43:00",
+        "source_ip": "192.168.1.198",
+        "attack_type": "port_scan",
+        "target_port": 368,
+        "status": "detected",
+        "mitre_id": "T1046"
+    },
+    {
+        "timestamp": "2026-05-27 15:43:00",
+        "source_ip": "192.168.1.198",
+        "attack_type": "port_scan",
+        "target_port": 805,
+        "status": "detected",
+        "mitre_id": "T1046"
+    },
+    {
+        "timestamp": "2026-05-27 15:43:00",
+        "source_ip": "192.168.1.198",
+        "attack_type": "port_scan",
+        "target_port": 486,
+        "status": "detected",
+        "mitre_id": "T1046"
+    },
+    {
+        "timestamp": "2026-05-27 15:43:00",
+        "source_ip": "192.168.1.213",
+        "target": "/login",
+        "attack_type": "web_attack",
+        "payload": "' OR 1=1 --",
+        "status": "blocked",
+        "mitre_id": "T1190"
+    },
+    {
+        "timestamp": "2026-05-27 15:43:00",
+        "source_ip": "192.168.1.213",
+        "target": "/login",
+        "attack_type": "web_attack",
+        "payload": "<script>alert(1)</script>",
+        "status": "blocked",
+        "mitre_id": "T1190"
+    },
+    {
+        "timestamp": "2026-05-27 15:43:00",
+        "source_ip": "192.168.1.213",
+        "target": "/login",
+        "attack_type": "web_attack",
+        "payload": "../../etc/passwd",
+        "status": "blocked",
+        "mitre_id": "T1190"
+    }
+]

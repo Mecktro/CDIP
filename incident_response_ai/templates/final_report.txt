@@ -1,0 +1,433 @@
+=== CYBER INCIDENT RESPONSE REPORT ===
+
+Generated: 2026-05-27 15:50:41.659766
+
+
+=== ATTACK TIMELINE ===
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.198
+
+Event: port_scan
+
+MITRE: T1046
+
+Description: Network Service Scanning - Discovery of open ports/services
+
+Severity: MEDIUM
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.213
+
+Event: web_attack
+
+MITRE: T1190
+
+Description: Exploit Public-Facing Application - Web application attack attempt
+
+Severity: HIGH
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.213
+
+Event: web_attack
+
+MITRE: T1190
+
+Description: Exploit Public-Facing Application - Web application attack attempt
+
+Severity: HIGH
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.213
+
+Event: web_attack
+
+MITRE: T1190
+
+Description: Exploit Public-Facing Application - Web application attack attempt
+
+Severity: HIGH
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.229
+
+Event: brute_force
+
+MITRE: T1110
+
+Description: Brute Force Attack - Repeated login attempts to gain access
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.229
+
+Event: brute_force
+
+MITRE: T1110
+
+Description: Brute Force Attack - Repeated login attempts to gain access
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.229
+
+Event: brute_force
+
+MITRE: T1110
+
+Description: Brute Force Attack - Repeated login attempts to gain access
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.198
+
+Event: port_scan
+
+MITRE: T1046
+
+Description: Network Service Scanning - Discovery of open ports/services
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.198
+
+Event: port_scan
+
+MITRE: T1046
+
+Description: Network Service Scanning - Discovery of open ports/services
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.198
+
+Event: port_scan
+
+MITRE: T1046
+
+Description: Network Service Scanning - Discovery of open ports/services
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.198
+
+Event: port_scan
+
+MITRE: T1046
+
+Description: Network Service Scanning - Discovery of open ports/services
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.198
+
+Event: port_scan
+
+MITRE: T1046
+
+Description: Network Service Scanning - Discovery of open ports/services
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.213
+
+Event: web_attack
+
+MITRE: T1190
+
+Description: Exploit Public-Facing Application - Web application attack attempt
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.213
+
+Event: web_attack
+
+MITRE: T1190
+
+Description: Exploit Public-Facing Application - Web application attack attempt
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:43:00
+
+Source: 192.168.1.213
+
+Event: web_attack
+
+MITRE: T1190
+
+Description: Exploit Public-Facing Application - Web application attack attempt
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_2
+
+Event: IAM_PRIVILEGE_ESCALATION
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_2
+
+Event: PUBLIC_S3_BUCKET
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_3
+
+Event: ACCESS_KEY_ABUSE
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_3
+
+Event: ACCESS_KEY_ABUSE
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_2
+
+Event: PUBLIC_S3_BUCKET
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_5
+
+Event: IAM_PRIVILEGE_ESCALATION
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_3
+
+Event: UNUSUAL_API_CALL
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_4
+
+Event: ACCESS_KEY_ABUSE
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_4
+
+Event: ACCESS_KEY_ABUSE
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_5
+
+Event: UNUSUAL_API_CALL
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_1
+
+Event: ACCESS_KEY_ABUSE
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_1
+
+Event: PUBLIC_S3_BUCKET
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_2
+
+Event: ACCESS_KEY_ABUSE
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_2
+
+Event: IAM_PRIVILEGE_ESCALATION
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+Time: 2026-05-27 15:47:30
+
+Source: user_5
+
+Event: PUBLIC_S3_BUCKET
+
+MITRE: UNKNOWN
+
+Description: Unknown MITRE Technique
+
+Severity: INFO
+
+---
+
+
+=== SUMMARY ===
+
+Total Events: 30
+
+System Status: COMPROMISED / UNDER INVESTIGATION

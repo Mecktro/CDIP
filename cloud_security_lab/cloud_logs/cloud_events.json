@@ -1,0 +1,137 @@
+[
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "IAM_PRIVILEGE_ESCALATION",
+        "user": "user_2",
+        "resource": "resource_273",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "PUBLIC_S3_BUCKET",
+        "user": "user_2",
+        "resource": "resource_153",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "ACCESS_KEY_ABUSE",
+        "user": "user_3",
+        "resource": "resource_495",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "ACCESS_KEY_ABUSE",
+        "user": "user_3",
+        "resource": "resource_111",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "PUBLIC_S3_BUCKET",
+        "user": "user_2",
+        "resource": "resource_863",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "IAM_PRIVILEGE_ESCALATION",
+        "user": "user_5",
+        "resource": "resource_374",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "UNUSUAL_API_CALL",
+        "user": "user_3",
+        "resource": "resource_638",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "ACCESS_KEY_ABUSE",
+        "user": "user_4",
+        "resource": "resource_339",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "ACCESS_KEY_ABUSE",
+        "user": "user_4",
+        "resource": "resource_331",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "UNUSUAL_API_CALL",
+        "user": "user_5",
+        "resource": "resource_294",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "ACCESS_KEY_ABUSE",
+        "user": "user_1",
+        "resource": "resource_181",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "PUBLIC_S3_BUCKET",
+        "user": "user_1",
+        "resource": "resource_480",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "ACCESS_KEY_ABUSE",
+        "user": "user_2",
+        "resource": "resource_228",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "IAM_PRIVILEGE_ESCALATION",
+        "user": "user_2",
+        "resource": "resource_690",
+        "status": "detected"
+    },
+    {
+        "timestamp": "2026-05-27 15:47:30",
+        "cloud_provider": "AWS",
+        "service": "AWS_SIMULATION",
+        "event_type": "PUBLIC_S3_BUCKET",
+        "user": "user_5",
+        "resource": "resource_952",
+        "status": "detected"
+    }
+]
